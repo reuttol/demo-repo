@@ -22,6 +22,7 @@ def fcm(x, num_of_clusters, m=2, max_iteration=100):
 #    U[:,0]=np.random.randn(rows, 1)
 #    U[:,1]=np.abs (np.sum(U,axis=1,initial=-1.0))
 
+    # This ia loop :)
     for i in xrange(rows):
         sumLeftTo1 = 1
         for j in xrange(cols - 1):
